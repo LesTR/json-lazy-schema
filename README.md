@@ -1,5 +1,15 @@
 # json schema for lazy poeple
-Simple parser for shorter json schema gramar
+Simple parser for shorter json schema gramar.
+I am very lazy man and i don't want write the long mess for http://json-schema.org/ but i need this functionality. For it i wrote a very easy grammar for converting to json-schema.
+
+Its simple, easy, sexy : ) and i don't need write a long mess of json schema code. 
+
+It's first prototype.
+Check example folder for examples.
+
+# Licence:
+MIT
+
 # Example:
 input:
 ```
