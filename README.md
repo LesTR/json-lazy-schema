@@ -9,6 +9,26 @@ Check example folder for examples.
 
 # Licence:
 MIT
+# Gramar:
+<class name>[">"extended classes separate by ","]=
+        [property modificators]propertieName:[property options]
+        
+property moficators:
+        ? - optional param
+        * - readonly param
+property options:
+        ["type"] - array of 'type'
+        {value1,value2} - list of concrete values
+        #start comment
+        |default value|
+Type can be specify in first argument, and this type can be nofify by:
+        "string"[0..10] - here can be only strings with lenght betwean 0 and 10, same are posible for another types.
+Values can have multiple values:
+        "string"{1,10} -  here are allowed multiple values, minimal are 1 and maximal = 10
+
+Modificator can be multiple, for example:
+        ?*foo:int[10..20]{1,5}|10| - here we have optional, readonly attribute with values betwean 10 and 20 with default value 10 and this attribute can have multiple value, but minimal are 1 and maximal 5. All of this values must be integer!
+        
 
 # Example:
 input:
